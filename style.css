@@ -1,0 +1,94 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-image: url(assets/cr1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            border: 2px solid gray;
+            width: 350px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #2C514C;
+            text-align: center;
+            border: 5px solid black ;
+            height: 430px;
+        }
+        .heading {
+            font-weight: bold;
+            padding: 20px 0;
+            font-size: 25px;
+        }
+        .input1{
+            width: 100px;
+            margin-bottom: 40px;
+            margin-top: 30px;
+        }
+        
+        .input1 p {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            
+        }
+        .input1 input {
+            height: 40px;
+            width: 350px;
+            border-radius: 10px;
+            border: 2px solid gray;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+        .intoall {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+        .dr {
+            display: flex;
+            align-items: center;
+            border: 2px solid lightgray;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        select {
+            font-size: 16px;
+            margin-left: 5px;
+            border: none;
+            background: none;
+        }
+        .answer {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        button {
+            
+            margin-top: 20px;
+            width: 100%;
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: purple;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            opacity: 0.8;
+        }
+        .img1, .img2 {
+            width: 30px;
+        }
+  .into4{
+    width: 100px;
+  }
